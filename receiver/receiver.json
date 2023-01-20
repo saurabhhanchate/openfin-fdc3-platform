@@ -1,0 +1,23 @@
+{
+  "devtools_port": 9090,
+  "runtime": {
+    "arguments": "--security-realm=platform_receiver --enable-mesh",
+    "version": "21.93.65.4"
+  },
+  "platform": {
+    "uuid": "platform_receiver",
+    "defaultWindowOptions": {
+      "fdc3InteropApi": "1.2"
+    },
+    "providerUrl": "http://localhost:4000/provider/provider.html",
+    "autoShow": false
+  },
+  "snapshot": {
+    "windows": [
+      {
+        "name": "platform_receiver_window_1",
+        "url": "http://localhost:4000/receiver/receiver.html"
+      }
+    ]
+  }
+}
